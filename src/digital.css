@@ -1,0 +1,277 @@
+body{
+    padding: 100px;
+    background-color: rgb(65, 65, 65);
+}
+
+.Contain{
+    border-radius: 35px;
+    background-color: black;
+    margin: auto;
+    width: 900px;
+    height: 500px;
+    border: solid rgb(85, 8, 8) 4px;
+}
+
+
+.DigitalClock{
+   
+    color: red;
+    font-family: digital-clock-font;
+    margin: auto;
+    margin-top: 50px;
+    width: 700px;
+    height: 328px;
+   
+}
+
+.Header{
+    display: flex;
+    width: 100%;
+    height: 50px;
+
+}
+.AM-PM{
+    padding: 1px;
+    border-radius: 5px;
+    border: solid rgb(56, 1, 1) 1px;
+    background-color:  rgb(19, 0, 0);
+    font-size: 30px;
+    text-align: center;
+    margin-left: 500px;
+    width: 30px;
+    height: 30px;
+   
+}
+
+.Clock{
+    border-radius: 15px;
+    background-color: rgb(19, 0, 0);
+    border: solid rgb(56, 1, 1) 2px;
+    text-align: center;
+    font-size: 180px;
+    margin-top: 20px;
+    display: flex;
+    width: 100%;
+    height: 250px;
+    
+}
+
+.dots{
+    margin-left: 12px;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.time-h{
+    margin-top: 30px;
+    margin-left: 20px;
+    height: 180px;
+    width: 200px;
+   
+}
+
+.time-m{
+    margin-top: 30px;
+    margin-left: 20px;
+    height: 180px;
+    width: 200px;
+ 
+}
+
+.time-s{
+    margin-top: 30px;
+    margin-left: 20px;
+    height: 180px;
+    width: 200px;
+    
+}
+
+.Footer{
+    
+    display: flex;
+    width: 100%;
+    height: 50px;
+    
+}
+.Footer_day{
+    
+    align-items: center;
+    margin: auto;
+    width: 85%;
+    height: 48px;
+    display: flex;
+  
+}
+@font-face{
+    font-family:'digital-clock-font';
+    src: url('./Font/digital-7.ttf');
+}
+
+
+.day{
+    color: rgb(85, 2, 2);
+    border-radius: 10px;
+    border: solid rgb(56, 1, 1) 1px;
+    background-color:  rgb(19, 0, 0);
+    font-size: 26px;
+    margin-left: 40px;
+    text-align: center;
+    height: 26px;
+    width: 55px;
+
+}
+
+.date_{
+    padding: 1px;
+    border-radius: 5px;
+    border: solid rgb(56, 1, 1) 1px;
+    background-color:  rgb(19, 0, 0);
+    margin-top: 28px;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    font-size: 35px;
+    width: 150px;
+    height: 30px;
+  
+}
+
+.date-y{
+    margin-left: 5px;
+    align-items: center;
+    text-align: center;
+    height: 38px;
+    width: 40px;
+    width: 200px;
+   
+}
+
+.date-d{
+    margin-left: 5px;
+    height: 38px;
+    width: 40px;
+
+}
+
+.date-m{
+    margin-left: 5px;
+    height: 38px;
+    width: 40px;
+
+}
+
+.spwt{
+    display: flex;
+    border-radius: 35px;
+    background-color: black;
+    width: 900px;
+    height: 250px;
+    border: rgb(54, 0, 0) solid 4px;
+}
+
+.btn{
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 150px;
+    height: 200px;
+    width: 150px;
+}
+
+.disp_spwt{
+    margin-top: 25px;
+    display: flex;
+    margin-left: 50px;
+    height: 200px;
+    width: 500px;
+}
+
+.b{ 
+    outline:none;
+    color: red;
+    background-color: rgb(29, 1, 1);
+    border-radius: 20px;
+    margin-top: 10px;
+    font-size: 25px;
+    font-family: digital-clock-font;
+    align-items: center;
+    height: 50px;
+    width: 120px;
+}
+
+.b:hover{
+    background-color: rgb(88, 1, 1);
+    font-weight: bold;
+}
+
+.btn_s{ 
+    margin-left: 250px;
+    outline:none;
+    color: red;
+    background-color: rgb(29, 1, 1);
+    border-radius: 5px;
+    margin-top: 95px;
+    font-size: 25px;
+    font-family: digital-clock-font;
+    align-items: center;
+    height: 30px;
+    width: 400px;
+}
+
+
+.arrow {
+ 
+    border: solid rgb(255, 0, 0);
+    border-width: 0 7px 7px 0;
+    display: inline-block;
+    padding: 3px;
+  }
+
+
+.down {
+    color:red;
+    font-size: 50px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }
+
+.btn_s:hover{ 
+    background-color: rgb(88, 1, 1);
+    font-weight: bold;
+}
+
+.st_box{
+    color: rgb(255, 30, 0);
+    background-color: rgb(19, 0, 0);
+    margin-top: 50px;
+    font-family: digital-clock-font;
+    font-size: 80px;
+    border-radius: 10px;
+    margin-left: 25px;
+    height: 80px;
+    width: 200px;
+    border: solid rgb(85, 8, 8) 4px;
+}
+
+.ini{
+    text-align: center;
+    font-size: 18px;
+}
+
+.ini:hover{
+    background-color: rgb(46, 1, 1);
+    color : red;
+    text-align: center;
+    font-size: 18px;
+}
+
+.output{
+    padding: 50px;
+    color: white;
+}
+
+.stopwatch{
+    
+    display: none;
+  
+}
+
