@@ -1,3 +1,10 @@
+# Digital-Clock-REACT 
+
+-A small react project made from fun and learning
+
+![clock](https://user-images.githubusercontent.com/34587275/110692285-80e6c280-81e6-11eb-9092-d129753080e0.gif)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
